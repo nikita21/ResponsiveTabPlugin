@@ -10,13 +10,16 @@
 <body>
 <div class="container">
 	<span id="error" class="error"></span>
-	<nav role="navigation">
-		<ul id="tabs"></ul>
+	<header>
+		<nav role="navigation">
+			<ul id="tabs"></ul>
 		
-		<select> <!-- select options will be visible when the screen width is less than 960px -->
-			<option value="" selected="selected">Select</option> 
-		</select>
-	</nav> 
+			<select> <!-- select options will be visible when the screen width is less than 960px -->
+				<option value="" selected="selected">Select</option> 
+			</select>
+		</nav> 
+	</header>
+	<section>
 	<div id="HTML5" class="tab-section">
 		<h3 class="title">HTML Introduction</h3>
 		<p id="HTML" class="para-section">
@@ -44,6 +47,8 @@
 		</p>
 
 	</div>
+	</section>
+	<footer>
 	<table class="table-section">
 		<tr>
 			<td><span><strong>Select Mark-up<strong></td>
@@ -65,7 +70,7 @@
 			<td><button type="button" onclick="changeToNav()"> Change </button></td>
 		</tr>
 	</table>
-
+	</footer>
 </div> 
 <script>
 
