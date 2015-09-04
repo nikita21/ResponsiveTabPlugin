@@ -34,7 +34,8 @@ h1, h2, h3, h4, h5, h6 {
 	width:960px;
 	background:#747474;
 	padding: 10px;
-	margin:20px 100px;
+	margin: 20px 100px;
+	overflow: scroll;
 }
 
 .para-section {
@@ -47,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 .table-section {
 	margin: 20px 100px;
 }
+
 /*nav ul {
 	display: inline-block;	
 }*/
@@ -86,7 +88,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(max-width:960px) {
 	nav ul {display:none; }
-	nav select { display: inline-block; }
+	nav select { 
+		display: inline-block;
+			
+		}
 }
 
 
