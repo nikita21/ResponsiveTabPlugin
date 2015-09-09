@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 	background:#747474;
 	padding: 10px;
 	margin: 20px 100px;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .para-section {
