@@ -7,11 +7,11 @@ nav {
 	display: block;
     /*line-height:30px; */
 	height:50px;
-    background-color:#fff;
+    	background-color:#fff;
 	margin:20px 100px;
 	text-align:center;
-    width:960px;
-    padding:10px;
+    	width:960px;
+    	padding:10px;
 	ul {
 		list-style:none;
 	}
